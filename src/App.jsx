@@ -19,9 +19,9 @@ function App() {
   return (
     <Router>
       <div className={`min-h-screen ${darkMode ? 'dark' : ''}`}>
+        <h1>hellogit</h1>
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
-          <h1>hellogit</h1>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
